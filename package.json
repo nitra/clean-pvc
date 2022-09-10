@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@kubernetes/client-node": "^0.17.0"
+  },
+  "devDependencies": {
+    "@nitra/eslint-config": "^1.0.22",
+    "@nitra/prettier-config": "^1.0.0"
+  },
+  "prettier": "@nitra/prettier-config",
+  "eslintConfig": {
+    "extends": [
+      "@nitra"
+    ],
+    "root": true
+  }
+}
